@@ -1,0 +1,140 @@
+/* Grundlegendes CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+}
+
+
+#hero {
+    background: #eaeaea;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about, #shop, #contact {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #35424a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #1d2124;
+}
+
+.mod-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mod-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Drei Elemente pro Reihe */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mod-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.mod-item h3 {
+    margin: 10px 0;
+}
+
+.mod-item p {
+    margin: 10px 0;
+}
+
+.mod-item button {
+    padding: 10px;
+    border: none;
+    background: #35424a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mod-item button:hover {
+    background: #1d2124;
+}
